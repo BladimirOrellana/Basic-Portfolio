@@ -3,6 +3,8 @@
     padding: 20px;
     border: 10px solid transparent;
     margin: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
  .hr-80{
    margin: 10px auto;
@@ -11,20 +13,45 @@
    border-radius: 10px;
    max-width: 80%;
 }
-
+.container-bladimir-image{
+ max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 100px 100px 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: all 1s;
+}
+.container-bladimir-image:hover{
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to right bottom,
+  rgb(0, 208, 255),
+  rgb(11, 255, 251));
+}
 .bladimir-image{
   
   width: 200px;
   height: 200px;
-  border: 5px solid $primary-heading-background-color;
-  border-radius: 20px;
-  float: left;
+  border-radius: 200px;
+  
   margin: 10px;
   
  
  
  }
 
+ .bladimir-image:hover{
+   transform: translateY(-10px);
+ }
+.welcome-message{
+  letter-spacing: 5px;
+  font-size: 50px;
+  background-image: linear-gradient(to right,
+  rgba(254, 0, 0, 1),
+  rgba(98, 150, 25, 1));
+  -webkit-background-clip: text;
+  color: transparent;
+}
  .description{
 
  padding: 10px;

@@ -75,7 +75,9 @@ a, a::after, a::before, a:hover {
   position: absolute;
   top: 65%;
   left: 10%;
-  transform: translate(-10%, -65%); }
+  transform: translate(-10%, -65%);
+  letter-spacing: 2px;
+  text-transform: uppercase; }
 
 .footer {
   position: fixed;
@@ -83,7 +85,8 @@ a, a::after, a::before, a:hover {
   bottom: 0;
   width: 100%;
   background: #666666;
-  border-top: 8px solid #4aaaa5; }
+  border-top: 8px solid #4aaaa5;
+  opacity: 0.9; }
   .footer-copy-right {
     width: 30%;
     padding: 10px;
@@ -98,7 +101,9 @@ a, a::after, a::before, a:hover {
   color: #4aaaa5;
   padding: 20px;
   border: 10px solid transparent;
-  margin: 10px; }
+  margin: 10px;
+  letter-spacing: 5px;
+  text-transform: uppercase; }
 
 .hr-80 {
   margin: 10px auto;
@@ -107,13 +112,34 @@ a, a::after, a::before, a:hover {
   border-radius: 10px;
   max-width: 80%; }
 
+.container-bladimir-image {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 100px 100px 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: all 1s; }
+
+.container-bladimir-image:hover {
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to right bottom, #00d0ff, #0bfffb); }
+
 .bladimir-image {
   width: 200px;
   height: 200px;
-  border: 5px solid #4aaaa5;
-  border-radius: 20px;
-  float: left;
+  border-radius: 200px;
   margin: 10px; }
+
+.bladimir-image:hover {
+  transform: translateY(-10px); }
+
+.welcome-message {
+  letter-spacing: 5px;
+  font-size: 50px;
+  background-image: linear-gradient(to right, #fe0000, #629619);
+  -webkit-background-clip: text;
+  color: transparent; }
 
 .description {
   padding: 10px;
@@ -126,7 +152,8 @@ a, a::after, a::before, a:hover {
   margin-bottom: 100px;
   background: white;
   border-radius: 10px;
-  background: whitesmoke; }
+  background: whitesmoke;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); }
 
 .inputs {
   display: block;
@@ -134,7 +161,8 @@ a, a::after, a::before, a:hover {
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 10px;
-  outline: none; }
+  outline: none;
+  border: 2px solid #777777; }
 
 label {
   color: #4aaaa5; }
@@ -142,7 +170,7 @@ label {
 .btn {
   padding: 1rem 2rem;
   margin-top: 1rem;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   outline: none;
   display: inline-block;
   transition: all .2s; }
@@ -168,7 +196,9 @@ label {
   height: 300px;
   margin-bottom: 20px;
   border-radius: 10px;
-  outline: none; }
+  outline: none;
+  border: 2px solid #777777;
+  resize: none; }
 
 .proyects {
   max-width: 95%;
@@ -188,7 +218,10 @@ label {
   float: left;
   border-radius: 10px;
   position: relative;
-  transition: all .2s; }
+  transition: all .2s;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-transform: uppercase; }
   .proyect:hover {
     transform: translateY(-10px);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); }
