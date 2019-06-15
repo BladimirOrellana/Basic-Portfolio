@@ -79,10 +79,17 @@ a, a::after, a::before, a:hover {
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 50px;
   width: 100%;
   background: #666666;
   border-top: 8px solid #4aaaa5; }
+  .footer-copy-right {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 15px; }
 
 /*---PAGES---*/
 .main-heading-h1 {
@@ -130,14 +137,27 @@ a, a::after, a::before, a:hover {
 label {
   color: #4aaaa5; }
 
-.bt {
-  width: 30%;
-  padding: 1rem;
+.btn {
+  padding: 1rem 2rem;
   margin-top: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  display: inline-block;
+  transition: all .2s; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+
+.btn:active {
+  border: none;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.btn-tail {
   color: white;
-  background: #4aaaa5;
-  border-radius: 1rem;
-  outline: none; }
+  background: #4aaaa5; }
 
 .proyects {
   max-width: 95%;

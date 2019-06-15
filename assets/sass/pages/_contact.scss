@@ -1,0 +1,52 @@
+
+
+.form{
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 100px;
+    background: $white;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+.inputs{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+label{
+   
+    color: $primary-heading-background-color;
+}
+
+.btn{
+
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    outline: none;
+    display: inline-block;
+    transition: all .2s;
+}
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.btn:active{
+    border: none;
+    text-decoration: none;
+transform: translateY(-1px);
+box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.btn-tail{
+    color: $white;
+    background: $main-color;
+}
+

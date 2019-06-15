@@ -1,0 +1,53 @@
+.nav{
+    background: $main-content-background;
+    height: 100px;
+    position: relative;
+    padding: 20px;
+    border: 10px;
+    margin: 0 auto;
+    max-width: 90%;
+  
+    
+}
+
+.nav-ul{
+  
+    max-width: 100%;
+    list-style-type: none;
+float: right;
+margin-right: 50px;
+
+   
+    &-li{
+        display: inline-block;
+        max-width: 30%;
+        padding: 20px;
+        margin: 10px;
+       
+        color: $general-font-color;
+
+        
+    }
+
+    &-li:hover{
+     background: $primary-heading-background-color;
+
+    
+    }
+
+
+}
+
+.name{
+    color: $heading-font-color-white;
+    background:#4aaaa5; 
+    padding: 20px;
+    border: 10px;
+    margin: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translate(-10%, -65%);
+
+}

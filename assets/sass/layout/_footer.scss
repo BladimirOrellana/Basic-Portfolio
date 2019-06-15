@@ -1,0 +1,21 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: $footer-baackground-color;
+    border-top: 8px solid $primary-heading-background-color;
+  
+
+    &-copy-right{
+        width: 30%;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+        color: $main-color;
+        font-weight: bold;
+        font-size: 15px;
+     
+    }
+}
+

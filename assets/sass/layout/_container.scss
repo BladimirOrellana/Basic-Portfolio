@@ -1,0 +1,17 @@
+.main-container{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background: $main-content-background;
+    border: 1px solid $main-content-border;
+    
+
+ }
+
+ .main-container::after{
+    content: "";
+    display: block;
+    clear: both;
+
+ }
