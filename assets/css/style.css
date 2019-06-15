@@ -1,4 +1,6 @@
 /*---ASBTRACTS---*/
+/*---MAIN COLOR---*/
+/*---GENERAL COLOR---*/
 @media (max-width: 1000px) {
   .proyect {
     width: 100%;
@@ -130,7 +132,7 @@ a, a::after, a::before, a:hover {
   display: block;
   width: 100%;
   padding: 10px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
   outline: none; }
 
@@ -159,6 +161,15 @@ label {
   color: white;
   background: #4aaaa5; }
 
+.texarea {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  outline: none; }
+
 .proyects {
   max-width: 95%;
   margin: 100px auto;
@@ -176,7 +187,14 @@ label {
   background: white;
   float: left;
   border-radius: 10px;
-  position: relative; }
+  position: relative;
+  transition: all .2s; }
+  .proyect:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); }
+  .proyect:active {
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
   .proyect-1 {
     background-image: linear-gradient(to right bottom, rgba(10, 11, 11, 0), rgba(235, 13, 183, 0)), url("https://media-public.canva.com/MADGvh8ZuBU/7/screen_2x.jpg");
     background-position: center;
