@@ -49,7 +49,7 @@ a, a::after, a::before, a:hover {
   padding: 20px;
   border: 10px;
   margin: 0 auto;
-  max-width: 90%; }
+  width: 90%; }
 
 .nav-ul {
   max-width: 100%;
@@ -144,6 +144,69 @@ a, a::after, a::before, a:hover {
 .description {
   padding: 10px;
   margin: 10px; }
+
+.text-container {
+  width: 100%;
+  float: left;
+  margin: .5rem; }
+
+.side-bar {
+  width: 49%;
+  float: left;
+  margin: .5rem;
+  text-align: center; }
+
+.view-my-work {
+  padding: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase; }
+
+.btn-main {
+  background: #4aaaa5; }
+
+.tools {
+  max-width: 95%;
+  margin: 100px auto;
+  clear: both;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 30px; }
+
+.tools-heading {
+  padding: 20px; }
+
+.tools-name {
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+  background: whitesmoke;
+  float: left;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative; }
+
+.tools-name:hover {
+  background: #4aaaa5; }
+
+.title {
+  padding: 20px; }
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; }
+
+.card-footer {
+  width: 100%;
+  height: 50px;
+  background: #4aaaa5;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .form {
   max-width: 50%;
