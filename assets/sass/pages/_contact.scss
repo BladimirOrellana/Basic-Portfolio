@@ -1,66 +1,7 @@
 
-
-.form{
-    max-width: 50%;
-    margin: 0 auto;
-    padding: 50px;
-    margin-bottom: 100px;
-    background: $white;
-    border-radius: 10px;
-    background: whitesmoke;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-}
-
-.inputs{
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-   border-radius: 10px;
-    outline: none;
-    border: 2px solid $general-font-color;
-}
-
-label{
-   
-    color: $primary-heading-background-color;
-}
-
-.btn{
-
-    padding: 1rem 2rem;
-    margin-top: 1rem;
-    border-radius: 0.5rem;
-    outline: none;
-    display: inline-block;
-    transition: all .2s;
-}
-.btn:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0,.2);
-}
-
-.btn:active{
-    border: none;
-    text-decoration: none;
-transform: translateY(-1px);
-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-}
-
-.btn-tail{
-    color: $white;
-    background: $main-color;
-
-}
-
-.texarea{
-    padding: 10px;
-    display: block;
-    width: 100%;
+.email-message{
     height: 300px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    outline: none;  
-    border: 2px solid $general-font-color;
     resize: none;
+    outline: none;
 }
+

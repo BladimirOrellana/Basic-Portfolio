@@ -4,56 +4,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--PROGRAMING ICONS-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!---GOOGLE FONTS--->
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans+Condensed:300" rel="stylesheet">
+		<!---FONTAWESOME--->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css?family=B612+Mono|Mali|Nanum+Gothic&display=swap" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <title>Basic Portafolio</title>
 </head>
 <body>
-        <nav class="nav">
-                <div class="name">
-                    <h1>Bladimir Orellana</h1>
-                </div>
-                <ul class="nav-ul">
-                        <a href="index.html"> <li class="nav-ul-li"> About</li></a>
-                        <a href="contact.html"> <li class="nav-ul-li">contact</li></a>
-                        <a href="portafolio.html"><li class="nav-ul-li">portafolio</li></a>
-                   </ul>
-            </nav>
+        <!-----NAV BAR-->
+        <nav>
+                        <div class="nav-wrapper">
+                          <a href="#!" class="brand-logo">
+                            <img width="50" height="50" src="./assets/images/logo-white-transparent.png" alt="bladimir logo" srcset="">      
+                          </a>
+                          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                          <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="portafolio.html">Portafolio</a></li>
+                          </ul>
+                        </div>
+                      </nav>
+                    
+                          <ul class="sidenav" id="mobile-demo">
+
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="portafolio.html">Portafolio</a></li>
+     
+                          </ul>
+              
     <main class="main-container">
-           <header>
-                    <h1 class="main-heading-h1">About Me</h1>
+      <div class="row">
+        <div class="col s12" id="welcomeMessage"></div>
+      </div>
+           <header id="homeHeader"  class="header center-align">
+             <div class="row">
+                         <div class="col s12 introduction">
+                                 <h1 class="welcome-message"> Hey there, My name is Bladimir Orellana</h1>
+                                 <h4 class="">What i do...</h4>
+                                 <h5>Im a Front-end - back-end Developer & Mentor, base in  Houston, Tx.</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                              <h4>I love what i do</h4>
+                            </div>
+                          </div>
+
+                        
+                </div>   
             </header>
-            <hr class="hr-80">
-            <section class="container-bladimir-image">
-                <img class="bladimir-image" src="assets/images/bladimir-2012.jpg" width="200" height="200">
-                <h1 class="who-is-this-guy">Who is this latino guy?</h1>
+            <div class="skills">
+                    <div class="container">
+                            <h3 class="center-align">Front-end</h3>
+                    <div class="row">
+                         <div class=" icons-card col s6 m4">
+                        <i class="devicon-html5-plain-wordmark colored"></i>
 
-                <h1 class="welcome-message">HELLO</h1>
-                <h1 class="welcome-message">I'M BLADIMIR Orellana</h1>
+                    </div>
+                    <div class=" icons-card col s6 m4">
+                                <i class="devicon-css3-plain-wordmark colored"></i>
+
+                    </div>
+                    <div class=" icons-card col s6 m4">
+                                <i class="devicon-javascript-plain colored"></i>
+
+                    </div>
+                    <div class=" icons-card col s6 m4">
+                                <i class="devicon-bootstrap-plain-wordmark colored"></i>
+
+                    </div>
+                    <div class=" icons-card col s6 m4">
+                                <i class="devicon-jquery-plain-wordmark colored"></i>
+
+                    </div>
+                    <div class=" icons-card col s6 m4">
+                                <i class="devicon-sass-original colored"></i>
+
+                    </div>
+                  
+
+            </div>
+            <h3 class="center-align">Back-end</h3>
+            <div class="row">
+                 <div class=" icons-card col s6 m4">
+                                <i class="devicon-php-plain colored"></i>
+
+            </div>
+            <div class=" icons-card col s6 m4">
+                        <i class="devicon-mysql-plain-wordmark colored"></i>
+
+            </div>
             
+          
 
-            </section>
-            <section class="text-container">
-                       <p class="description">
-                        I'm a full stack web deloper living in  Houston <strong>"the space city"!</strong> 
-                    </p>
-                    <h4> I have a passion to learn about programming language</h4>
-                    
-        
+    </div>
+    <h3 class="center-align">Dev Tools</h3>
+    <div class="row">
+         <div class=" icons-card col s6 m4">
+                        <i class="devicon-git-plain-wordmark colored"></i>
 
-            </section>
+    </div>
+    <div class=" icons-card col s6 m4">
+                <i class="devicon-github-plain-wordmark colored"></i>
+
+    </div>
+    
+  
+
+</div>
+        </div>
+        </div>
+                   
+            <div class="work">
+
+            </div>
+            <div class="contact">
+
+            </div>
+            
           </main>
-        <footer class="footer">
-                <section class="footer-copy-right">
-                    <h5>
-                            &copy; Copyrights Bo{} 2019
-                    </h5>
-                    
-                </section>
-        </footer>
- 
+       
+          <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Want to know more?</h5>
+                  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn red modal-trigger" href="#modal1">Message Me! <i class="fab fa-whatsapp"></i></a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal red">
+    <div class="modal-content">
+      <h4>I'll get in touch asap</h4>
+      <div class="row">
+          <form class="col s12">
+            <div class="row">
+             <div class="input-field col s12">
+                          <i class="material-icons prefix">create</i>
+                          <textarea  placeholder="Write..."  cols="70" rows="20" class="validate whatsappTextarea"></textarea>
+                   </div>
+               </div>
+          </form>
+        </div>
+     </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">send</a>
+    </div>
+  </div>
+       
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Links</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link in</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Stack Overflow</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © BladimirOrellana 2019
+              <a class="grey-text text-lighten-4 right" href="#!">Say Hello</a>
+              </div>
+            </div>
+          </footer>
+              
+        <script src="./assets/materialize-js/bin/materialize.min.js"></script>
+ <script type="module" src="assets/js/app.js"></script>
 </body>
 </html>

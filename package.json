@@ -18,5 +18,8 @@
   "homepage": "https://github.com/BladimirOrellana/Basic-Portfolio#readme",
   "devDependencies": {
     "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
   }
 }

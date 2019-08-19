@@ -4,55 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--PROGRAMING ICONS-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css?family=B612+Mono|Mali|Nanum+Gothic&display=swap" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <title>Contact</title>
+    <title>Basic Portafolio</title>
 </head>
 <body>
-    <!---NAV BAR-->
-        <nav class="nav">
-                <div class="name">
-                    <h1>Contact</h1>
+        <!-----NAV BAR-->
+        <nav>
+                        <div class="nav-wrapper">
+                          <a href="#!" class="brand-logo">
+                            <img width="50" height="50" src="./assets/images/logo-white-transparent.png" alt="bladimir logo" srcset="">      
+                          </a>
+                          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                          <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="portafolio.html">Portafolio</a></li>
+                          </ul>
+                        </div>
+                      </nav>
+                    
+                          <ul class="sidenav" id="mobile-demo">
+
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="portafolio.html">Portafolio</a></li>
+     
+                          </ul>
+              
+    <main class="main-container">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h1 class="center-align">Get In Touch</h1>
+                    </div>
                 </div>
-               <ul class="nav-ul">
-                    <a href="index.html"> <li class="nav-ul-li"> About</li></a>
-                    <a href="contact.html"> <li class="nav-ul-li">contact</li></a>
-                    <a href="portafolio.html"><li class="nav-ul-li">portafolio</li></a>
-               </ul>
-            </nav>
-  
-     <!---START MAIN CONTENT-->
-        <main class="main-container">
-            <header>
-                    <h1 class="main-heading-h1">contact</h1>
-            </header>
-            <hr class="hr-80">
-            <section>
-                <form class="form">
-                    <label title="first-name">First Name</label>
-                    <input class="inputs" type="text" name="first-name" placeholder="First Name" required>
-                    <label title="last-name">Last Name</label>
-                    <input class="inputs" type="text" name="last-name" placeholder="Last Name" required>
-                    <label title="email">Email</label>
-                    <input class="inputs" type="email" name="email" placeholder="Email" required>
-                    <label title="email">Comments</label>
-                    <textarea class="texarea" placeholder="Comments..." required></textarea>
-                    <button class="btn btn-tail" type="button" >Summit</button>
-                </form>
-            
-            </section>
-
-
-
-        </main>
-         <!---FOOTER-->
-        <footer class="footer">
-                <section class="footer-copy-right">
-                    <h5>
-                            &copy; Copyrights Bo{} 2019
-                    </h5>
-                 </section>
-        </footer>
- 
+                <div class="row">
+                        <form class="col s12">
+                          <div class="row">
+                            <div class="input-field col s12 m6">
+                              <i class="material-icons prefix">account_circle</i>
+                              <input id="icon_prefix" type="text" class="validate">
+                              <label for="icon_prefix">First Name</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="icon_prefix" type="text" class="validate">
+                                    <label for="icon_prefix">last Name</label>
+                                  </div>
+                                   <div class="input-field col s12 m6">
+                              <i class="material-icons prefix">phone</i>
+                              <input id="icon_telephone" type="tel" class="validate">
+                              <label for="icon_telephone">Telephone</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="icon_prefix" type="email" class="validate">
+                                    <label for="icon_prefix">Email</label>
+                                  </div>
+                                  <div class="input-field col s12">
+                                        <i class="material-icons prefix">create</i>
+                                        <textarea  placeholder="Write..."  cols="70" rows="20" class="email-message"></textarea>
+                                 </div>
+                                 <a class="btn">Send <i class="material-icons">send</i></a>
+                             </div>
+                        </form>
+                      </div>
+                    </div>         
+        </header>
+      </main>
+       
+          <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Want to know more?</h5>
+                  <p class="grey-text text-lighten-4">Send me an email <i class="material-icons">email</i></p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Links</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/bladimirorellanadeveloper/">Facebook</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link in</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Stack Overflow</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © BladimirOrellana 2019
+              <a class="grey-text text-lighten-4 right" href="#!">Say Hello</a>
+              </div>
+            </div>
+          </footer>
+              
+        <script src="./assets/materialize-js/bin/materialize.min.js"></script>
+ <script type="module" src="assets/js/app.js"></script>
 </body>
 </html>
