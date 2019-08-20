@@ -4,13 +4,14 @@ var welcomeMessage = () => {
     var hourNow = today.getHours();
     var greeting;
     var icon = $("<i>");
-    icon.addClass('material-icons');
+    icon.addClass('material-icons morning after');
     var greeting = $("<span>");
     greeting.addClass("greeting");
    var  greetingContainer = $("<div>");
    greetingContainer.addClass("center-align")
     if (hourNow < 12){
       greeting.html('Good morning')
+     
      icon.html("local_cafe");
 
     }

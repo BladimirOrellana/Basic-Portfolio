@@ -1,13 +1,27 @@
 .greeting{
-  font-size: 30px;
+  font-size: 20px;
+  color: black;
+}
+.mornig{
+  color: rgb(43, 25, 25);
+}
+.afternoon{
+  color: rgb(255, 255, 0);
+}
+.night{
+  color: rgb(174, 174, 25);
 }
 .header{
   height: 100vh;
  background-image: linear-gradient(to right bottom,
- rgb(255, 255, 255),
- rgb(255, 255, 255));
+ rgba(63, 53, 53, 0.7),
+ rgba(92, 75, 75, 0.7)), url("/assets/images/logo-black.png");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 //clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
 padding-bottom: 100px;
+color: white;
 
 
 }
@@ -37,6 +51,11 @@ padding-bottom: 100px;
   rgb(255, 255, 255));
   padding: 20px;
 
+}
+
+.work{
+  background: gainsboro;
+  padding: 20px;
 }
 .icons-card{
   height: 200px;

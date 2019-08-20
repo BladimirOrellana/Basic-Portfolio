@@ -89,12 +89,26 @@ a, a::after, a::before, a:hover {
 
 /*---PAGES---*/
 .greeting {
-  font-size: 30px; }
+  font-size: 20px;
+  color: black; }
+
+.mornig {
+  color: #2b1919; }
+
+.afternoon {
+  color: yellow; }
+
+.night {
+  color: #aeae19; }
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, white, white);
-  padding-bottom: 100px; }
+  background-image: linear-gradient(to right bottom, rgba(63, 53, 53, 0.7), rgba(92, 75, 75, 0.7)), url("/assets/images/logo-black.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+  color: white; }
 
 .introduction {
   margin-bottom: 20px; }
@@ -110,6 +124,10 @@ a, a::after, a::before, a:hover {
 
 .skills {
   background-image: linear-gradient(to right bottom, white, white);
+  padding: 20px; }
+
+.work {
+  background: gainsboro;
   padding: 20px; }
 
 .icons-card {
