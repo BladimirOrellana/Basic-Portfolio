@@ -13,6 +13,7 @@ var siteEmail = {
                type:'POST',
                data:{firstName,lastName,email,comment}
            }).then(function(result){
+               console.log(result)
                if(result === '1'){
                M.toast({html: 'Email sent       Thank you!'})
                }else{
